@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: #bdb2ff;
+    margin: 20%;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.semaforo{
+    background-color: #aef496;
+    text-align: left;
+    border:solid;
+    border-color:black;
+}
+
+.cuadro{
+    background-color: #aef496;
+    border: solid;
+    border-color: black;
+
+    
+}
+.click{
+    font-size: 40px; 
+    text-decoration: black;
+}
+.libreria{
+    color: violet;
+    font-size: 65px;
+    padding-top: 0px;
+
+}
+
+.buscar{
+    text-align: center;
+    color: black;
+    background-size: 5% 30%;
+    font-size: 30px;
+    align-items: center;
+    padding: 5px 10px;
+    letter-spacing: 0px;
+    border-bottom: black;
+    border-bottom: solid;
+}
+.buscar span{
+
+    background-color: #5db241;
+}
