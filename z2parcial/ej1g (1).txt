@@ -1,0 +1,9 @@
+
+g) Describí la arquitectura cliente-servidor y los roles de cada parte
+
+Los sistemas Web hoy en día presentan en genarl una arquitectura distribuida, es decir que sus componentes están distribuidos en dos tipos de nodos: clientes (muchos) y servidores (uno). En esta arquitectura, llamada cliente-servidor, los clientes se comunican con el servidor siguiendo un protocolo de pedido-respuesta en el que:
+#Un cliente hace un pedido,
+#El servidor procesa el pedido y responde.
+#El cliente se encarga de presentar (renderizar) la respuesta al usuario final.
+Esta comunicación ocurre a través de redes Intranets o la misma Internet, empleando un protocolo llamado HTTP, sobre el cuál hablaremos en el punto siguiente.
+Entonces en la arquitectura web cliente-servidor, los servidores son quienes almacenan y proveen la información o recursos dados, y los clientes son responsables de presentar la información al usuario, empleando tecnologías específicas de la Web.

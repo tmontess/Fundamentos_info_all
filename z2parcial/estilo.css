@@ -1,0 +1,40 @@
+body{ /* en el body siempre llevar el margin y el padding a 0 para evitar errores   ->aux:el body es donde esta lo que aparece en pag*/
+    margin: 0;  
+    padding: 0;
+    background-color: violet; /* en este caso pongo todo el fondo de azul y lo q no sea azul lo especifico despues */
+    
+}
+
+.blanco{
+    background-color: white;
+    height: 50px;
+}
+
+h1{
+    width: 40%;              /*pongo % que cuanto mas grande sea nro, mas espacio hacia la derecha se ampliara el recuadro de h1  */
+    margin-left: -1%;        /* #espacio a izquierda  del recuadro de h1 en conjunto con sus letras(si pongo valor negativo es al reves, es decir, le quita espacio de la izq) aux: margin es distancia entre margen exterior y recuadro especifico con sus letras */
+    height: 67px;            /* agranda el alto del recuadro de h1 */
+    padding-top: 5px;        /* distancia que deja  a izq antes dentro de recuadro de h1 antes q empieze texto de h1  aux:padding es distancia que deja entre recuadro que estoy creando y el texto que le meto(o fotos, etc) */
+    padding-left: 20px;      /* ( distancia que deja  a izq antes dentro de recuadro de h1 antes q empieze texto de h1) */
+    font-size: 44px;         /* (agranda la letra del texto que esta dentro de h1)
+    */
+}
+
+p{
+    color: black;  /* pongo la letra de h2 color blanco (el fondo seguira siendo azul por el body) */
+    padding-left: 20px;
+    font-size: 25px;} 
+
+.galeria img{    /* de galeria mira las imagenes */
+    width: 356px; /* ancho de imagen (lo que la estira hacia la derecha) width */
+    height: 261px; /* Alto de imagen (lo que la estira hacie abajo) height */
+    margin-left: 5px; /*#distancia que deja entre la izquierda de todo hasta donde arranca imagen*/
+}
+
+h6{
+    background-color: white;
+    height: 50px;
+    color: violet;
+    padding-left: 200px;
+    font-size: 20px;
+}

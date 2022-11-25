@@ -1,0 +1,22 @@
+
+ej3
+b) ¿Qué es una etiqueta semántica y qué ventajas tienesu uso?
+
+c) Explique los siguientes conceptos: página web, sitio web, aplicación REST
+
+
+
+b)
+
+La semántica hace referencia al significado de las palabras y/u oraciones. La semántica en HTML se trata de usar las etiquetas correctas para cada elemento/sección de la pagina web. Algunas de las semánticas mas usadas son <section></section> y <figure></figure>
+
+Las etiquetas semánticas son las que organizan el contenido, pero no lo formatean\
+Las etiquetas no semánticas son las que formatean.
+Semanticas: <Head>, <p>, <div>, <footer>
+No semánticas: <strong>, <I>, <ul> etc.
+
+
+c)
+Pagina web  es HTML
+sitio web son varios HTML
+Aplicacion web es tener un servidor

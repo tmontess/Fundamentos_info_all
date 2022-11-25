@@ -1,0 +1,71 @@
+FONDO
+
+body{
+    background-color: rgb(188, 238, 130);
+}
+
+
+RECTANGULO EN LA PARTE SUPERIOR 
+
+.heder{
+    display: flex; #tamaño del rectangulo/cuadro
+    justify-content: flex-start; #ubicacion del texo
+    background-color: #b387bf; #color del cuadrado
+    height: 5rem; #agrandar el rectangulo para abajo
+    border:solid black; #bordes del rectangulo
+    padding: 2%; #grosor de los bordes
+}
+
+ALINEAR TEXTO EN EL MEDIO 
+
+.texto3{
+    margin-right: 60%; # la dif del margen desde la derecha 
+    display: flex; # acomoda verticalmente
+    align-items: center; # acomoda vericalemnte 
+}
+
+justify-content la cual alinea elementos horizontalmente y acepta los siguientes valores:
+
+    flex-start: Alinea elementos al lado izquierdo del contenedor.
+    flex-end: Alinea elementos al lado derecho del contenedor.
+    center: Alinea elementos en el centro del contenedor.
+    space-between: Muestra elementos con la misma distancia entre ellos.
+    space-around: Muestra elementos con la misma separación alrededor de ellos
+
+EJ. 
+
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+- align-items alinea elementos verticalmente y acepta los siguientes valores:
+
+    flex-start: Alinea elementos a la parte superior del contenedor.
+    flex-end: Alinea elementos a la parte inferior del contenedor.
+    center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+    baseline: Muestra elementos en la línea base del contenedor
+    stretch: Elementos se estiran para ajustarse al contenedor.
+
+
+- flex-direction: la dirección de los elementos en el contenedor, y acepta los siguientes valores:
+
+    row: Elementos son colocados en la misma dirección del texto.
+    row-reverse: Elementos son colocados en la dirección opuesta al texto.
+    column: Elementos se colocan de arriba hacia abajo.
+    column-reverse: Elementos se colocan de abajo hacia arriba.
+
+- order    a elementos individuales. Por defecto, los elementos tienen un valor 0, 
+pero nosotros podemos usar esta propiedad para establecerlo a un número entero positivo o negativo.
+
+*/
+
+
+python3 -m flask run 
+contol c
+
+
+[7:45, 25/11/2022] Tomas Montes: git add .
+[7:45, 25/11/2022] Tomas Montes: git commit -m “mensajito”
+[7:45, 25/11/2022] Tomas Montes: git push
+[7:45, 25/11/2022] Tomas Montes: git clone url
